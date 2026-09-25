@@ -1,0 +1,21 @@
+# Core (required)
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+numpy>=1.26.0
+pynput>=1.7.6
+
+# Analog gamepad output (optional — falls back to keyboard if unavailable).
+# Windows only today; requires the ViGEmBus driver, which vgamepad's own
+# installer prompts for on first use.
+vgamepad>=0.1.0 ; sys_platform == 'win32'
+
+# Pre-launch settings GUI (optional; app runs fine without it, just edit
+# ~/.gaming_steering/config.json by hand instead)
+customtkinter>=5.2.0
+
+# Voice commands (optional; toggle "voice.enabled" in config.json)
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+
+# Session analytics export (optional; toggle "analytics.enabled" in config.json)
+matplotlib>=3.8.0
