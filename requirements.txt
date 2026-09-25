@@ -1,3 +1,4 @@
+cat > requirements.txt << 'EOF'
 # Core (required)
 opencv-python>=4.8.0
 mediapipe>=0.10.9
@@ -19,3 +20,4 @@ PyAudio>=0.2.13
 
 # Session analytics export (optional; toggle "analytics.enabled" in config.json)
 matplotlib>=3.8.0
+EOF
