@@ -96,7 +96,7 @@ macOS, and Linux rather than just one platform.
 gamepad output) Windows with the ViGEmBus driver.
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/nvthenarcss/steering-wheel-simulation>
 cd gaming-steering-simulation
 python -m venv .venv
 source .venv/Scripts/activate      # Windows (Git Bash)
