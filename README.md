@@ -210,7 +210,4 @@ controller/
   adjustments in the config file for your hand size, camera, and
   lighting conditions.
 
-## License
 
-Choose a license (MIT is a reasonable default for a project like this)
-before publishing.
