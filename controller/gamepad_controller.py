@@ -1,15 +1,4 @@
-"""
-Virtual Xbox360 controller output via vgamepad.
 
-This is the headline upgrade over the original repo: steering becomes a real
-analog stick axis instead of a binary key-press, and throttle/brake become
-analog triggers. Games that support controller input (almost all racing
-games) get vastly smoother, more precise control than arrow keys can offer.
-
-vgamepad requires the ViGEmBus driver on Windows (vgamepad's own installer
-handles this) and is Windows-only today. GamepadUnavailable is raised (not
-a bare exception) so callers can cleanly fall back to keyboard mode.
-"""
 
 
 class GamepadUnavailable(Exception):
